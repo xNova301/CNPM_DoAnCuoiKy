@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BaiDoXe_AnNinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BaoCaoDoanhThuVaThue_TCKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DSYeuCauTuCEO_CacBP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DSYeuCauTuHCNS_CacBP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ChiTietCanHo_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ChiTietChuHo_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ChiTietKhachKTM_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ChiTietNDUQ_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_DSachCanHo_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_DSachChuHo_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_DSachKhachKTM_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_DSachNDUQ_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_DSachNVCH_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ThemCanHo_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ThemChuHo_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ChiTietNVCH_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ThemKhachKTM_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ThemNDUQ_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_ThemNVCH_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QTCD_TrangChu_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThongKeBaoCao_CEO_CQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BaoCaoDoanhThu_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CuDanRaVao_AnNinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DSYeuCauTuCEO_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DSYeuCauTuKH_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoViec_CEO_CQL_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HangMucXayDung_XD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PtrienDichVu_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SuaChuaDienNuocVaXayDung_KTBT_XD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThemTTinNVMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_BP_AnNinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_BP_KTBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_BP_TCKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_BP_HCNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_BP_VeSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_BP_XayDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrangChu_CEO_CQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TTinChiTietNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
