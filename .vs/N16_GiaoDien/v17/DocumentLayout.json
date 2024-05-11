@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\dsyeucautuceo_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\dsyeucautuceo_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\trangchu_ceo_cql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\trangchu_ceo_cql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\dsyeucautukh_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\dsyeucautukh_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\dsyeucautuhcns_cacbp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\dsyeucautuhcns_cacbp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\trangchu_bp_vesinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\trangchu_bp_vesinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\trangchu_ceo_cql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\trangchu_ceo_cql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\ptriendichvu_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\ptriendichvu_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\baocaodoanhthu_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\baocaodoanhthu_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\giaoviec_ceo_cql_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\giaoviec_ceo_cql_hcns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|c:\\users\\admin\\desktop\\cnpm\\cnpm_doancuoiky\\n16_giaodien\\suachuadiennuocvaxaydung_ktbt_xd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F93BBB2-E220-427E-B902-58DFCB998D92}|N16_GiaoDien\\N16_GiaoDien.csproj|solutionrelative:n16_giaodien\\suachuadiennuocvaxaydung_ktbt_xd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DSYeuCauTuKH_HCNS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\DSYeuCauTuKH_HCNS.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\DSYeuCauTuKH_HCNS.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\DSYeuCauTuKH_HCNS.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\DSYeuCauTuKH_HCNS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T02:53:04.604Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DSYeuCauTuCEO_HCNS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\DSYeuCauTuCEO_HCNS.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\DSYeuCauTuCEO_HCNS.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\DSYeuCauTuCEO_HCNS.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\DSYeuCauTuCEO_HCNS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:53:57.908Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrangChu_CEO_CQL.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\TrangChu_CEO_CQL.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\TrangChu_CEO_CQL.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\TrangChu_CEO_CQL.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\TrangChu_CEO_CQL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:10:38.834Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DSYeuCauTuHCNS_CacBP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\DSYeuCauTuHCNS_CacBP.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\DSYeuCauTuHCNS_CacBP.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\DSYeuCauTuHCNS_CacBP.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\DSYeuCauTuHCNS_CacBP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:57:21.584Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrangChu_BP_VeSinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\TrangChu_BP_VeSinh.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\TrangChu_BP_VeSinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\TrangChu_BP_VeSinh.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\TrangChu_BP_VeSinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:05:33.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrangChu_CEO_CQL.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\TrangChu_CEO_CQL.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\TrangChu_CEO_CQL.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\TrangChu_CEO_CQL.cs",
+              "RelativeToolTip": "N16_GiaoDien\\TrangChu_CEO_CQL.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAlwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T00:55:46.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PtrienDichVu_HCNS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\PtrienDichVu_HCNS.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\PtrienDichVu_HCNS.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\PtrienDichVu_HCNS.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\PtrienDichVu_HCNS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T23:01:04.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaoCaoDoanhThu_HCNS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\BaoCaoDoanhThu_HCNS.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\BaoCaoDoanhThu_HCNS.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\BaoCaoDoanhThu_HCNS.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\BaoCaoDoanhThu_HCNS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:58:36.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GiaoViec_CEO_CQL_HCNS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\GiaoViec_CEO_CQL_HCNS.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\GiaoViec_CEO_CQL_HCNS.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\GiaoViec_CEO_CQL_HCNS.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\GiaoViec_CEO_CQL_HCNS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:59:15.919Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SuaChuaDienNuocVaXayDung_KTBT_XD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\SuaChuaDienNuocVaXayDung_KTBT_XD.cs",
+              "RelativeDocumentMoniker": "N16_GiaoDien\\SuaChuaDienNuocVaXayDung_KTBT_XD.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\SuaChuaDienNuocVaXayDung_KTBT_XD.cs [Design]",
+              "RelativeToolTip": "N16_GiaoDien\\SuaChuaDienNuocVaXayDung_KTBT_XD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T23:00:38.482Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -61,7 +61,7 @@
             panel9 = new Panel();
             panel5 = new Panel();
             button3 = new Button();
-            button2 = new Button();
+            btnTaiKhoan = new Button();
             button1 = new Button();
             pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
@@ -194,6 +194,7 @@
             button11.TabIndex = 4;
             button11.Text = "TÌM KIẾM";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // label5
             // 
@@ -245,6 +246,7 @@
             button9.TabIndex = 24;
             button9.Text = "XUẤT FILE";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -277,6 +279,7 @@
             button8.TabIndex = 20;
             button8.Text = "LƯU";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button5
             // 
@@ -294,6 +297,7 @@
             button5.TabIndex = 21;
             button5.Text = "SỬA";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -311,6 +315,7 @@
             button6.TabIndex = 23;
             button6.Text = "XÓA";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -328,6 +333,7 @@
             button7.TabIndex = 22;
             button7.Text = "QUAY LẠI";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // dataGridView1
             // 
@@ -375,12 +381,14 @@
             yêuCầuTừCEOToolStripMenuItem.Name = "yêuCầuTừCEOToolStripMenuItem";
             yêuCầuTừCEOToolStripMenuItem.Size = new Size(299, 28);
             yêuCầuTừCEOToolStripMenuItem.Text = "Yêu cầu từ CEO";
+            yêuCầuTừCEOToolStripMenuItem.Click += yêuCầuTừCEOToolStripMenuItem_Click;
             // 
             // yêuCầuTừKHToolStripMenuItem
             // 
             yêuCầuTừKHToolStripMenuItem.Name = "yêuCầuTừKHToolStripMenuItem";
             yêuCầuTừKHToolStripMenuItem.Size = new Size(299, 28);
             yêuCầuTừKHToolStripMenuItem.Text = "Yêu cầu từ BP HCNS_QTCD";
+            yêuCầuTừKHToolStripMenuItem.Click += yêuCầuTừKHToolStripMenuItem_Click;
             // 
             // label6
             // 
@@ -402,7 +410,7 @@
             panel4.Controls.Add(panel9);
             panel4.Controls.Add(panel5);
             panel4.Controls.Add(button3);
-            panel4.Controls.Add(button2);
+            panel4.Controls.Add(btnTaiKhoan);
             panel4.Controls.Add(button1);
             panel4.Location = new Point(8, 97);
             panel4.Name = "panel4";
@@ -451,23 +459,23 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // button2
+            // btnTaiKhoan
             // 
-            button2.BackColor = Color.FromArgb(1, 42, 74);
-            button2.BackgroundImageLayout = ImageLayout.Zoom;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(70, 143, 175);
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Consolas", 12F, FontStyle.Bold);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(-1, 67);
-            button2.Name = "button2";
-            button2.Size = new Size(220, 61);
-            button2.TabIndex = 1;
-            button2.Text = "Tài khoản";
-            button2.TextImageRelation = TextImageRelation.ImageAboveText;
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            btnTaiKhoan.BackColor = Color.FromArgb(1, 42, 74);
+            btnTaiKhoan.BackgroundImageLayout = ImageLayout.Zoom;
+            btnTaiKhoan.FlatAppearance.BorderSize = 0;
+            btnTaiKhoan.FlatAppearance.MouseOverBackColor = Color.FromArgb(70, 143, 175);
+            btnTaiKhoan.FlatStyle = FlatStyle.Flat;
+            btnTaiKhoan.Font = new Font("Consolas", 12F, FontStyle.Bold);
+            btnTaiKhoan.ForeColor = Color.White;
+            btnTaiKhoan.Location = new Point(-1, 67);
+            btnTaiKhoan.Name = "btnTaiKhoan";
+            btnTaiKhoan.Size = new Size(220, 61);
+            btnTaiKhoan.TabIndex = 1;
+            btnTaiKhoan.Text = "Tài khoản";
+            btnTaiKhoan.TextImageRelation = TextImageRelation.ImageAboveText;
+            btnTaiKhoan.UseVisualStyleBackColor = false;
+            btnTaiKhoan.Click += button2_Click;
             // 
             // button1
             // 
@@ -485,6 +493,7 @@
             button1.Text = "Trang chủ";
             button1.TextImageRelation = TextImageRelation.ImageAboveText;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
@@ -505,6 +514,7 @@
             Controls.Add(panel1);
             Name = "TrangChu_BP_VeSinh";
             Text = "Bộ phận vệ sinh";
+            FormClosing += TrangChu_BP_VeSinh_FormClosing;
             panel1.ResumeLayout(false);
             panel7.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
@@ -518,6 +528,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
+
 
         #endregion
 
@@ -555,6 +566,6 @@
         private TextBox textBox1;
         private Label label1;
         private ComboBox comboBox1;
-        private Button button2;
+        private Button btnTaiKhoan;
     }
 }

@@ -43,5 +43,10 @@ namespace N16_GiaoDien
             this.Hide();
             qTCD_TrangChu_HCNS.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

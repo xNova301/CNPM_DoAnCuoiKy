@@ -383,14 +383,14 @@
             // yêuCầuTừCEOToolStripMenuItem
             // 
             yêuCầuTừCEOToolStripMenuItem.Name = "yêuCầuTừCEOToolStripMenuItem";
-            yêuCầuTừCEOToolStripMenuItem.Size = new Size(172, 28);
+            yêuCầuTừCEOToolStripMenuItem.Size = new Size(224, 28);
             yêuCầuTừCEOToolStripMenuItem.Text = "Nhân viên";
             // 
             // lênKếHoạchToolStripMenuItem
             // 
             lênKếHoạchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { hCNDQTCDToolStripMenuItem, anNinhToolStripMenuItem, kỹThuậtBảoTrìToolStripMenuItem, xâyDựngToolStripMenuItem, tàiChínhKếToánToolStripMenuItem, vệSinhToolStripMenuItem });
             lênKếHoạchToolStripMenuItem.Name = "lênKếHoạchToolStripMenuItem";
-            lênKếHoạchToolStripMenuItem.Size = new Size(172, 28);
+            lênKếHoạchToolStripMenuItem.Size = new Size(224, 28);
             lênKếHoạchToolStripMenuItem.Text = "Bộ phận";
             // 
             // hCNDQTCDToolStripMenuItem
@@ -583,6 +583,7 @@
             button2.Text = "Giao việc";
             button2.TextImageRelation = TextImageRelation.ImageAboveText;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
