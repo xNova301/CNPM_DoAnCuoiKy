@@ -18,12 +18,14 @@ namespace N16_GiaoDien
 {
     public partial class TrangChu_BP_VeSinh : Form
     {
+
         private string connectionString = "Data Source=LAPTOP-SCJ3M8HC;Initial Catalog=CNPM;Integrated Security=True";
-        public TrangChu_BP_VeSinh()
+        NhanVien nhanVien;
+        public TrangChu_BP_VeSinh(NhanVien nhanVien)
         {
             InitializeComponent();
+            this.nhanVien = nhanVien;
             LoadDataFromDatabase(); // Load dữ liệu từ cơ sở dữ liệu khi Form4 được tạo
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -35,7 +37,7 @@ namespace N16_GiaoDien
 
         private void button2_Click(object sender, EventArgs e)
         {
-            TTinChiTietNV ttchitietNV = new TTinChiTietNV();
+            TTinChiTietNV ttchitietNV = new TTinChiTietNV(nhanVien);
             ttchitietNV.Show();
         }
 
@@ -55,7 +57,7 @@ namespace N16_GiaoDien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TrangChu_CEO_CQL trangChu_CEO_CQL = new TrangChu_CEO_CQL();
+            TrangChu_CEO_CQL trangChu_CEO_CQL = new TrangChu_CEO_CQL(nhanVien);
             this.Hide();
             trangChu_CEO_CQL.Show();
         }

@@ -13,9 +13,11 @@ namespace N16_GiaoDien
 {
     public partial class TrangChu_BP_TCKT : Form
     {
-        public TrangChu_BP_TCKT()
+        NhanVien nhanVien;
+        public TrangChu_BP_TCKT(NhanVien nhanVien)
         {
             InitializeComponent();
+            this.nhanVien = nhanVien;
         }
 
         private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
@@ -32,7 +34,7 @@ namespace N16_GiaoDien
 
         private void button2_Click(object sender, EventArgs e)
         {
-            TTinChiTietNV ttchitietNV = new TTinChiTietNV();
+            TTinChiTietNV ttchitietNV = new TTinChiTietNV(nhanVien);
             this.Hide();
             ttchitietNV.Show();
         }

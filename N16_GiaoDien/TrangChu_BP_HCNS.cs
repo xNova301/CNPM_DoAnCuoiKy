@@ -14,9 +14,11 @@ namespace GiaoDien
 {
     public partial class TrangChu_BP_HCNS : Form
     {
-        public TrangChu_BP_HCNS()
+        NhanVien nhanVien;
+        public TrangChu_BP_HCNS(NhanVien nhanVien)
         {
             InitializeComponent();
+            this.nhanVien = nhanVien;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -48,7 +50,7 @@ namespace GiaoDien
 
         private void button4_Click(object sender, EventArgs e)
         {
-            TTinChiTietNV ttchitietNV = new TTinChiTietNV();
+            TTinChiTietNV ttchitietNV = new TTinChiTietNV(nhanVien);
             this.Hide();
             ttchitietNV.Show();
         }

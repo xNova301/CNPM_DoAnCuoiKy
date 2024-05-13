@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("N16_GiaoDien")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+549d747487b1822bf13659f67243c3f89bbcd192")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa05b312f689238821e5e4f907c941341fbc54d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("N16_GiaoDien")]
 [assembly: System.Reflection.AssemblyTitleAttribute("N16_GiaoDien")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Mail;
 using Mau02;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Data.SqlClient;
 
 namespace N16_GiaoDien
 {
@@ -19,6 +21,9 @@ namespace N16_GiaoDien
         {
             InitializeComponent();
         }
+
+        Random random = new Random();
+        int newPwd;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,16 +39,60 @@ namespace N16_GiaoDien
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string emailAddress = textBox1.Text;
 
+            string emailAddress = textBox1.Text;
             // Kiểm tra xem email có hợp lệ không (đây là một kiểm tra đơn giản)
             if (IsValidEmail(emailAddress))
             {
                 // Gửi email hướng dẫn khôi phục mật khẩu
                 try
                 {
-                    SendPasswordResetEmail(emailAddress);
-                    MessageBox.Show("Đã gửi hướng dẫn khôi phục mật khẩu đến địa chỉ email của bạn!");
+                    newPwd = random.Next(100000, 1000000);
+
+                    var fromEmail = new MailAddress("hoangducminh0902@gmail.com");
+
+                    var toEmail = new MailAddress(textBox1.ToString());
+
+                    const string fromEmailPass = "cspuihzdgqhwqptq";
+
+                    const string title = "Mật khẩu mới của phần mềm QuanTriCuDan";
+
+                    string content = newPwd.ToString();
+
+                    var smtp = new SmtpClient
+                    {
+                        Host = "smtp.gmail.com",
+                        Port = 587,
+                        EnableSsl = true,
+                        DeliveryMethod = SmtpDeliveryMethod.Network,
+                        UseDefaultCredentials = false,
+                        Credentials = new NetworkCredential(fromEmail.Address, fromEmailPass),
+                        Timeout = 200000
+                    };
+
+                    using (var message = new MailMessage(fromEmail, toEmail)
+                    {
+                        Subject = title,
+                        Body = content
+                    })
+                    {
+                        smtp.Send(message);
+                    }
+                    String connectString = @"Data Source=HoangMinh\SQLEXPRESS;Initial Catalog=QUAN_LY_CONG_VIEC;Integrated Security=True";
+
+                    String newMK = newPwd.ToString();
+
+                    String query = $"UPDATE NHAN_VIEN SET MK = '{newMK}' WHERE EMAIL = '{emailAddress}'";
+
+                    using (SqlConnection conn = new SqlConnection(connectString))
+                    {
+                        conn.Open();
+
+                        SqlCommand command = new SqlCommand(query, conn);
+                        command.ExecuteNonQuery();
+                        conn.Close();
+                    }
+                    MessageBox.Show("Đã gửi thành công mật khẩu mới qua email");
                 }
                 catch (Exception ex)
                 {
@@ -68,7 +117,7 @@ namespace N16_GiaoDien
             }
         }
 
-        private void SendPasswordResetEmail(string toEmail)
+        /*private void SendPasswordResetEmail(string toEmail)
         {
             // Thông tin tài khoản email gửi
             string fromEmail = textBox1.Text;
@@ -97,6 +146,6 @@ namespace N16_GiaoDien
             {
                 MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
             }
-        }
+        }*/
     }
 }

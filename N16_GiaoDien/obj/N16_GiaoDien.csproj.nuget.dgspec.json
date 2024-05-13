@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj": {}
+    "D:\\Hung\\CNPM\\CNPM_DoAnCuoiKy\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj": {
+    "D:\\Hung\\CNPM\\CNPM_DoAnCuoiKy\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj",
+        "projectUniqueName": "D:\\Hung\\CNPM\\CNPM_DoAnCuoiKy\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj",
         "projectName": "N16_GiaoDien",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\CNPM\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\obj\\",
+        "projectPath": "D:\\Hung\\CNPM\\CNPM_DoAnCuoiKy\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\N16_GiaoDien.csproj",
+        "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
+        "outputPath": "D:\\Hung\\CNPM\\CNPM_DoAnCuoiKy\\CNPM_DoAnCuoiKy\\N16_GiaoDien\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

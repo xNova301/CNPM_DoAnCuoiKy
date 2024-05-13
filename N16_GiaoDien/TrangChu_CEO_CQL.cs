@@ -13,10 +13,13 @@ namespace N16_GiaoDien
 {
     public partial class TrangChu_CEO_CQL : Form
     {
-        public TrangChu_CEO_CQL()
+        NhanVien nhanVien;
+        public TrangChu_CEO_CQL(NhanVien nhanVien)
         {
             InitializeComponent();
+            this.nhanVien = nhanVien;
         }
+
 
         private void TrangChu_CEO_CQL_Load(object sender, EventArgs e)
         {
@@ -32,7 +35,7 @@ namespace N16_GiaoDien
 
         private void button12_Click(object sender, EventArgs e)
         {
-            TTinChiTietNV ttchitietNV = new TTinChiTietNV();
+            TTinChiTietNV ttchitietNV = new TTinChiTietNV(nhanVien);
             this.Hide();
             ttchitietNV.Show();
         }
